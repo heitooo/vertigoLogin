@@ -18,7 +18,7 @@ a {
   cursor: pointer;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
@@ -112,17 +112,25 @@ input:hover {
   margin-top: 24px;
 }
 
-.sign-up{
+.sign-up {
   padding-top: 32px;
   font-size: 16px;
   color: var(--text-color);
 }
 
-.sign-up a{
-font-size: 16px;
-font-weight: 700;
-color: var(--button-color); 
+.sign-up a {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--button-color);
+}
 
+span.error {
+  color: #ed3a5a;
+  font-size: 14px;
+}
+
+input.error {
+  border-color: #ed3a5a;
 }
 
 .s-img {
